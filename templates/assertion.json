@@ -1,28 +1,28 @@
 {
   "@context": "https://w3id.org/openbadges/v2",
   "type": "Assertion",
-  "id": "https://YOURUSERNAME.github.io/my-badges/BADGE-NAME/assertion.json",
+  "id": "https://almondelf2.github.io/my-badges/BADGE-NAME/assertion.json",
   "recipient": {
     "type": "email",
     "hashed": true,
     "identity": "sha256$SHA256_HEX_DIGEST_HERE",
-    "salt": "random-salt-123"
+    "salt": "YOUR_SALT_HERE"
   },
   "badge": {
     "type": "BadgeClass",
-    "id": "https://YOURUSERNAME.github.io/my-badges/BADGE-NAME/badge-class.json",
+    "id": "https://almondelf2.github.io/my-badges/BADGE-NAME/badge-class.json",
     "name": "Course Name Here",
     "description": "Brief description of what this course covered and what you learned.",
-    "image": "https://YOURUSERNAME.github.io/my-badges/BADGE-NAME/badge.png",
+    "image": "https://almondelf2.github.io/my-badges/BADGE-NAME/badge.png",
     "criteria": {
       "narrative": "Completed all modules, assignments, and requirements for this certification."
     },
     "issuer": {
-      "id": "https://YOURUSERNAME.github.io/my-badges/issuer.json",
+      "id": "https://almondelf2.github.io/my-badges/issuer.json",
       "type": "Profile",
-      "name": "Your Full Name",
-      "url": "https://YOURUSERNAME.github.io",
-      "email": "no-reply@YOURUSERNAME.github.io"
+      "name": "Chelf",
+      "url": "https://almondelf2.github.io",
+      "email": "no-reply@almondelf2.github.io"
     },
     "tags": [
       "Skill 1",
@@ -34,7 +34,7 @@
   "evidence": [
     {
       "type": "Evidence",
-      "id": "https://YOURUSERNAME.github.io/my-badges/BADGE-NAME/certificate.pdf",
+      "id": "https://www.linkedin.com/learning/certificates/...",
       "description": "Original course completion certificate"
     }
   ],

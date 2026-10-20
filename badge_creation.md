@@ -1,11 +1,10 @@
-﻿### How to fill it in
+### How to fill it in
 
 | Placeholder | What to put |
 |---|---|
-| `YOURUSERNAME.github.io` | Your actual GitHub Pages domain (e.g. `almondelf2.github.io`) |
 | `BADGE-NAME` | kebab-case slug, e.g. `intro-data-science` |
 | `you@example.com` | The email on your **Credly account** (must match exactly, lowercase) |
-| `random-salt-123` | Any random alphanumeric string (e.g. `a3f8b2c1` or 16 random characters) |
+| `YOUR_SALT_HERE` | Any random alphanumeric string (e.g. `a3f8b2c1` or 17 random characters) |
 | `identity` | The full string: `sha256$` followed by the 64-char lowercase hex hash |
 | `issuedOn` | Completion date in ISO 8601 format (e.g. `2024-07-22T00:00:00Z`) |
 
@@ -69,8 +68,29 @@ echo "identity: sha256$HASH"
     "identity": "sha256$SHA256_HEX_DIGEST_HERE",
     "salt": "YOUR_SALT_HERE"
   },
-  "badge": "https://almondelf2.github.io/my-badges/BADGE-NAME/badge-class.json",
-  "issuedOn": "2024-07-22T00:00:00Z",
+  "badge": {
+    "type": "BadgeClass",
+    "id": "https://almondelf2.github.io/my-badges/BADGE-NAME/badge-class.json",
+    "name": "Course Name Here",
+    "description": "Brief description of what this course covered and what you learned.",
+    "image": "https://almondelf2.github.io/my-badges/BADGE-NAME/badge.png",
+    "criteria": {
+      "narrative": "Completed all modules, assignments, and requirements for this certification."
+    },
+    "issuer": {
+      "id": "https://almondelf2.github.io/my-badges/issuer.json",
+      "type": "Profile",
+      "name": "Chelf",
+      "url": "https://almondelf2.github.io",
+      "email": "no-reply@almondelf2.github.io"
+    },
+    "tags": [
+      "Skill 1",
+      "Skill 2",
+      "Skill 3"
+    ]
+  },
+  "issuedOn": "2024-06-15T00:00:00Z",
   "evidence": [
     {
       "type": "Evidence",
@@ -90,18 +110,16 @@ echo "identity: sha256$HASH"
 
 ```
 my-badges/
-â”œâ”€â”€ intro-data-science/
-â”‚   â”œâ”€â”€ badge-class.json
-â”‚   â”œâ”€â”€ assertion.json
-â”‚   â”œâ”€â”€ issuer.json
-â”‚   â”œâ”€â”€ badge.png
-â”‚   â””â”€â”€ certificate.pdf
-â”œâ”€â”€ web-development/
-â”‚   â”œâ”€â”€ badge-class.json
-â”‚   â”œâ”€â”€ assertion.json
-â”‚   â”œâ”€â”€ issuer.json
-â”‚   â”œâ”€â”€ badge.png
-â”‚   â””â”€â”€ certificate.pdf
+├── intro-data-science/
+│   ├── badge-class.json
+│   ├── assertion.json
+│   ├── badge.png
+│   └── certificate.pdf
+├── web-development/
+│   ├── badge-class.json
+│   ├── assertion.json
+│   ├── badge.png
+│   └── certificate.pdf
 ```
 
 ---
@@ -112,7 +130,6 @@ my-badges/
 |---|---|
 | Format | **PNG** (not JPG) |
 | Shape | **Square** (1:1 ratio) |
-| Size | **512 Ã— 512 px** (recommended); minimum 90 Ã— 90 |
+| Size | **512 x 512 px** (recommended); minimum 90 x 90 |
 | Max file size | **256 KB** |
-| Background | Transparent preferred, or solid â€” just keep it clean |
-
+| Background | Transparent preferred, or solid - just keep it clean |
