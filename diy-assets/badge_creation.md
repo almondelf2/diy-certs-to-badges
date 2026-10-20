@@ -61,7 +61,6 @@ https://YOURUSERNAME.github.io/diy-certs-to-badges/
 
 ```
 diy-certs-to-badges/
-├── index.html                                         <-- Interactive web portfolio
 ├── LICENSE                                            <-- MIT License
 ├── README.md                                          <-- Project overview
 ├── diy-assets/                                        <-- Creation guide, templates & scripts
@@ -164,10 +163,10 @@ https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/BADGE-NAME/badge-cl
 {
   "@context": "https://w3id.org/openbadges/v2",
   "type": "BadgeClass",
-  "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/my-badges/intro-data-science/badge-class.json",
+  "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/intro-data-science/badge-class.json",
   "name": "Introduction to Data Science",
   "description": "Comprehensive course covering exploratory data analysis, statistics, Python, and machine learning fundamentals.",
-  "image": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/my-badges/intro-data-science/badge.png",
+  "image": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/intro-data-science/badge.png",
   "criteria": {
     "narrative": "Completed all 10 modular units, passed all weekly coding labs, and scored 80% or higher on the comprehensive final exam."
   },
@@ -260,7 +259,7 @@ The `assertion.json` records that a specific recipient earned the badge.
 {
   "@context": "https://w3id.org/openbadges/v2",
   "type": "Assertion",
-  "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/my-badges/intro-data-science/assertion.json",
+  "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/intro-data-science/assertion.json",
   "recipient": {
     "type": "email",
     "hashed": true,
@@ -269,10 +268,10 @@ The `assertion.json` records that a specific recipient earned the badge.
   },
   "badge": {
     "type": "BadgeClass",
-    "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/my-badges/intro-data-science/badge-class.json",
+    "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/intro-data-science/badge-class.json",
     "name": "Introduction to Data Science",
     "description": "Comprehensive course covering exploratory data analysis, statistics, Python, and machine learning fundamentals.",
-    "image": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/my-badges/intro-data-science/badge.png",
+    "image": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/intro-data-science/badge.png",
     "criteria": {
       "narrative": "Completed all 10 modular units, passed all weekly coding labs, and scored 80% or higher on the comprehensive final exam."
     },
@@ -325,7 +324,7 @@ The `assertion.json` records that a specific recipient earned the badge.
 3. **Verify Public Accessibility:**
    Wait 1–2 minutes for the initial deployment. Test using `curl` or open the links in an incognito browser window:
    ```bash
-   curl -I https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/my-badges/intro-data-science/assertion.json
+   curl -I https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/intro-data-science/assertion.json
    ```
    **Expected Response:** `HTTP/1.1 200 OK` (with `Content-Type: application/json`).
 
