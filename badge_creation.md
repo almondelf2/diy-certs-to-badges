@@ -99,9 +99,9 @@ Open Badges require a raster or vector graphic to represent the achievement visu
 
 The Issuer Profile describes the entity awarding the credential.
 
-Save this file in your root folder as `issuer.json`:
+Save this file in the `my-badges/` folder as `issuer.json`:
 ```
-https://YOURUSERNAME.github.io/diy-certs-to-badges/issuer.json
+https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/issuer.json
 ```
 
 ### Schema & Properties:
@@ -119,7 +119,7 @@ https://YOURUSERNAME.github.io/diy-certs-to-badges/issuer.json
 {
   "@context": "https://w3id.org/openbadges/v2",
   "type": "Profile",
-  "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/issuer.json",
+  "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/issuer.json",
   "name": "Your Organization or Full Name",
   "url": "https://YOURUSERNAME.github.io",
   "email": "no-reply@YOURUSERNAME.github.io"
@@ -166,7 +166,7 @@ https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/BADGE-NAME/badge-cl
     "narrative": "Completed all 10 modular units, passed all weekly coding labs, and scored 80% or higher on the comprehensive final exam."
   },
   "issuer": {
-    "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/issuer.json",
+    "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/issuer.json",
     "type": "Profile",
     "name": "Your Organization or Full Name",
     "url": "https://YOURUSERNAME.github.io",
@@ -271,7 +271,7 @@ The `assertion.json` records that a specific recipient earned the badge.
       "narrative": "Completed all 10 modular units, passed all weekly coding labs, and scored 80% or higher on the comprehensive final exam."
     },
     "issuer": {
-      "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/issuer.json",
+      "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/issuer.json",
       "type": "Profile",
       "name": "Your Organization or Full Name",
       "url": "https://YOURUSERNAME.github.io",

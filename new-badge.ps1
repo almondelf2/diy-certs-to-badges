@@ -105,7 +105,7 @@ $badgeClassObj = [ordered]@{
         narrative = "Successfully completed all curriculum, assignments, and requirements for $Name."
     }
     issuer = [ordered]@{
-        id = "https://$Username.github.io/diy-certs-to-badges/issuer.json"
+        id = "https://$Username.github.io/diy-certs-to-badges/my-badges/issuer.json"
         type = "Profile"
         name = $IssuerName
         url = "https://$Username.github.io"

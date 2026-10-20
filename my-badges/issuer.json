@@ -1,9 +1,8 @@
 {
   "@context": "https://w3id.org/openbadges/v2",
   "type": "Profile",
-  "id": "https://almondelf2.github.io/diy-certs-to-badges/issuer.json",
+  "id": "https://almondelf2.github.io/diy-certs-to-badges/my-badges/issuer.json",
   "name": "Chelf",
   "url": "https://almondelf2.github.io",
   "email": "no-reply@almondelf2.github.io"
 }
-

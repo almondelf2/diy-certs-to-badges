@@ -18,7 +18,7 @@
       "narrative": "Completed all modules, assignments, and requirements for this certification."
     },
     "issuer": {
-      "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/issuer.json",
+      "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/issuer.json",
       "type": "Profile",
       "name": "Your Full Name",
       "url": "https://YOURUSERNAME.github.io",
