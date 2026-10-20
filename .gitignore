@@ -1,0 +1,26 @@
+# Windows thumbnail caches & desktop files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+
+# macOS metadata & invisible files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Editor & IDE directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary & Log files
+*.tmp
+*.temp
+*.log
