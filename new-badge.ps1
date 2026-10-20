@@ -76,7 +76,7 @@ if (-not $Email) {
     exit 1
 }
 
-$targetFolder = Join-Path $baseDir $Slug
+$targetFolder = Join-Path (Join-Path $baseDir "my-badges") $Slug
 if (Test-Path $targetFolder) {
     Write-Warning "Directory '$Slug' already exists! Files may be overwritten."
 } else {
@@ -97,10 +97,10 @@ $nowIso = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddT00:00:00Z")
 $badgeClassObj = [ordered]@{
     "@context" = "https://w3id.org/openbadges/v2"
     type = "BadgeClass"
-    id = "https://$Username.github.io/diy-certs-to-badges/$Slug/badge-class.json"
+    id = "https://$Username.github.io/diy-certs-to-badges/my-badges/$Slug/badge-class.json"
     name = $Name
     description = $Description
-    image = "https://$Username.github.io/diy-certs-to-badges/$Slug/badge.png"
+    image = "https://$Username.github.io/diy-certs-to-badges/my-badges/my-badges/$Slug/badge.png"
     criteria = [ordered]@{
         narrative = "Successfully completed all curriculum, assignments, and requirements for $Name."
     }
@@ -128,7 +128,7 @@ if ($EvidenceUrl) {
 $assertionObj = [ordered]@{
     "@context" = "https://w3id.org/openbadges/v2"
     type = "Assertion"
-    id = "https://$Username.github.io/diy-certs-to-badges/$Slug/assertion.json"
+    id = "https://$Username.github.io/diy-certs-to-badges/my-badges/my-badges/$Slug/assertion.json"
     recipient = [ordered]@{
         type = "email"
         hashed = $true
@@ -165,7 +165,7 @@ Write-Host "  Identity:   $identity"
 Write-Host "  Assertion:  $assertionPath"
 Write-Host ""
 Write-Host "Next steps:" -ForegroundColor Cyan
-Write-Host "  1. Add your 512x512 badge graphic: $Slug/badge.png"
+Write-Host "  1. Add your 512x512 badge graphic: my-badges/$Slug/badge.png"
 Write-Host "  2. Commit and push changes: git add $Slug; git commit -m 'Add $Name badge'; git push"
-Write-Host "  3. Upload $Slug/assertion.json to Credly!"
+Write-Host "  3. Upload my-badges/$Slug/assertion.json to Credly!"
 Write-Host "==========================================================" -ForegroundColor Green

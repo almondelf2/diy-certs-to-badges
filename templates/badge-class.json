@@ -1,10 +1,10 @@
 {
   "@context": "https://w3id.org/openbadges/v2",
   "type": "BadgeClass",
-  "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/BADGE-NAME/badge-class.json",
+  "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/BADGE-NAME/badge-class.json",
   "name": "Course Name Here",
   "description": "Brief description of what this course covered and what you learned.",
-  "image": "https://YOURUSERNAME.github.io/diy-certs-to-badges/BADGE-NAME/badge.png",
+  "image": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/BADGE-NAME/badge.png",
   "criteria": {
     "narrative": "Completed all modules, assignments, and requirements for this certification."
   },
@@ -13,7 +13,7 @@
     "type": "Profile",
     "name": "Your Full Name",
     "url": "https://YOURUSERNAME.github.io",
-    "email": "you@example.com"
+    "email": "no-reply@YOURUSERNAME.github.io"
   },
   "tags": [
     "Skill 1",

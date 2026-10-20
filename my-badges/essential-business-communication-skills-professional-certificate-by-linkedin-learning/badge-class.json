@@ -1,0 +1,36 @@
+{
+    "@context":  "https://w3id.org/openbadges/v2",
+    "type":  "BadgeClass",
+    "id":  "https://almondelf2.github.io/diy-certs-to-badges/my-badges/essential-business-communication-skills-professional-certificate-by-linkedin-learning/badge-class.json",
+    "name":  "Essential Business Communication Skills Professional Certificate by LinkedIn Learning",
+    "description":  "Nine-course professional certificate from LinkedIn Learning covering confident communication, active listening, conflict resolution with emotional intelligence, feedback mindset, digital body language, influencing others, cross-cultural communication, and professional email writing. Completed all 9 courses and passed the final assessment.",
+    "image":  "https://almondelf2.github.io/diy-certs-to-badges/my-badges/essential-business-communication-skills-professional-certificate-by-linkedin-learning/badge.png",
+    "criteria":  {
+                     "narrative":  "Completed all nine courses in the Essential Business Communication Skills Professional Certificate learning path on LinkedIn Learning: Communicating with Confidence, Effective Listening, Resolving Conflict with Emotional Intelligence, Developing a Feedback Mindset to Accelerate Your Career, Digital Body Language, Influencing Others, Communicating about Culturally Sensitive Issues, Communicating with Emotional Intelligence, and Writing Email. Passed the final summative assessment to earn the certificate."
+                 },
+    "issuer":  {
+                   "id":  "https://almondelf2.github.io/diy-certs-to-badges/issuer.json",
+                   "type":  "Profile",
+                   "name":  "Chelf",
+                   "url":  "https://almondelf2.github.io",
+                   "email":  "no-reply@almondelf2.github.io"
+               },
+    "tags":  [
+                 "Communication",
+                 "Self-confidence",
+                 "Confidence Building",
+                 "Active Listening",
+                 "Interpersonal Communication",
+                 "Conflict Resolution",
+                 "Emotional Intelligence",
+                 "Conflict Management",
+                 "Career Development",
+                 "Body Language",
+                 "Professional Communication",
+                 "Influencing Others",
+                 "Social Influence",
+                 "Cross-Cultural Communication",
+                 "Sensitive Issues",
+                 "Email Etiquette"
+             ]
+}

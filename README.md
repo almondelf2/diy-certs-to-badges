@@ -27,17 +27,17 @@ Each badge directory contains the self-contained assertion (`assertion.json`), p
 
 | Badge / Credential | Provider | Skills & Competencies Tagged |
 |---|---|---|
-| **[IT Help Desk Specialist](advance-your-skills-as-an-it-help-desk-specialist/)** | LinkedIn Learning | Windows 10, Hardware Maintenance, Active Directory, Troubleshooting, Customer Support |
-| **[Career Essentials in Cybersecurity](career-essentials-in-cybersecurity-by-microsoft-and-linkedin/)** | Microsoft & LinkedIn | Network Security, Threat Analysis, Endpoint Protection, Security Operations |
-| **[Career Essentials in Generative AI](career-essentials-in-generative-ai-by-microsoft-and-linkedin/)** | Microsoft & LinkedIn | Prompt Engineering, LLMs, AI Ethics, Copilot Integration, Workplace Productivity |
-| **[Microsoft Copilot for Productivity](microsoft-copilot-for-productivity-by-microsoft-and-linkedin/)** | Microsoft & LinkedIn | Microsoft 365 Copilot, Prompt Writing, Outlook, Teams, Excel & PowerPoint AI |
-| **[Customer Success Foundations](customer-success-foundations-professional-certificate-by-churnzero/)** | ChurnZero | Onboarding, Retention Strategies, Health Scoring, Customer Journey Mapping |
-| **[Zendesk Customer Service](zendesk-customer-service-professional-certificate/)** | Zendesk | Ticket Management, SLA Compliance, Omnichannel Support, Incident Resolution |
-| **[Business Communication Skills](essential-business-communication-skills-professional-certificate-by-linkedin-learning/)** | LinkedIn Learning | Professional Writing, Cross-Functional Alignment, Active Listening, Executive Presence |
-| **[IT Administration](essential-new-skills-in-it-administration/)** | LinkedIn Learning | Enterprise Infrastructure, PowerShell Automation, Systems Management |
-| **[IT Support Career Track](explore-a-career-in-it-support/)** | LinkedIn Learning | Help Desk Fundamentals, Hardware Diagnostics, Network Basics |
-| **[ChatGPT for Business](building-chatgpt-skills-for-business-professionals/)** | LinkedIn Learning | Workplace Automation, Generative AI Strategies, Data Synthesis |
-| **[Generative AI Productivity](build-your-generative-ai-productivity-skills-with-microsoft-and-linkedin/)** | Microsoft & LinkedIn | Modern AI Tools, Workflow Automation, Workplace Productivity |
+| **[IT Help Desk Specialist](my-badges/advance-your-skills-as-an-it-help-desk-specialist/)** | LinkedIn Learning | Windows 10, Hardware Maintenance, Active Directory, Troubleshooting, Customer Support |
+| **[Career Essentials in Cybersecurity](my-badges/career-essentials-in-cybersecurity-by-microsoft-and-linkedin/)** | Microsoft & LinkedIn | Network Security, Threat Analysis, Endpoint Protection, Security Operations |
+| **[Career Essentials in Generative AI](my-badges/career-essentials-in-generative-ai-by-microsoft-and-linkedin/)** | Microsoft & LinkedIn | Prompt Engineering, LLMs, AI Ethics, Copilot Integration, Workplace Productivity |
+| **[Microsoft Copilot for Productivity](my-badges/microsoft-copilot-for-productivity-by-microsoft-and-linkedin/)** | Microsoft & LinkedIn | Microsoft 365 Copilot, Prompt Writing, Outlook, Teams, Excel & PowerPoint AI |
+| **[Customer Success Foundations](my-badges/customer-success-foundations-professional-certificate-by-churnzero/)** | ChurnZero | Onboarding, Retention Strategies, Health Scoring, Customer Journey Mapping |
+| **[Zendesk Customer Service](my-badges/zendesk-customer-service-professional-certificate/)** | Zendesk | Ticket Management, SLA Compliance, Omnichannel Support, Incident Resolution |
+| **[Business Communication Skills](my-badges/essential-business-communication-skills-professional-certificate-by-linkedin-learning/)** | LinkedIn Learning | Professional Writing, Cross-Functional Alignment, Active Listening, Executive Presence |
+| **[IT Administration](my-badges/essential-new-skills-in-it-administration/)** | LinkedIn Learning | Enterprise Infrastructure, PowerShell Automation, Systems Management |
+| **[IT Support Career Track](my-badges/explore-a-career-in-it-support/)** | LinkedIn Learning | Help Desk Fundamentals, Hardware Diagnostics, Network Basics |
+| **[ChatGPT for Business](my-badges/building-chatgpt-skills-for-business-professionals/)** | LinkedIn Learning | Workplace Automation, Generative AI Strategies, Data Synthesis |
+| **[Generative AI Productivity](my-badges/build-your-generative-ai-productivity-skills-with-microsoft-and-linkedin/)** | Microsoft & LinkedIn | Modern AI Tools, Workflow Automation, Workplace Productivity |
 
 ---
 
@@ -79,7 +79,7 @@ Want to turn your own certificates into Credly-compatible Open Badges?
    See **[badge_creation.md](badge_creation.md)** for a beginner-friendly walkthrough covering image dimensions, JSON schemas, cryptographic hash generation commands, and Credly upload instructions.
 
 2. **Use the Starter Templates:**  
-   Copy the starter templates from the [`templates/`](templates/) folder:
+   Copy the starter templates from the [`templates/`](my-badges/templates/) folder:
    * [`templates/assertion.json`](templates/assertion.json) — Upload file for Credly
    * [`templates/badge-class.json`](templates/badge-class.json) — Public badge class definition
    * [`templates/issuer.json`](templates/issuer.json) — Issuer profile definition

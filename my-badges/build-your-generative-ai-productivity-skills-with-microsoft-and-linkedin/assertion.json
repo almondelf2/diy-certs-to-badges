@@ -1,0 +1,55 @@
+{
+    "@context":  "https://w3id.org/openbadges/v2",
+    "type":  "Assertion",
+    "id":  "https://almondelf2.github.io/diy-certs-to-badges/my-badges/build-your-generative-ai-productivity-skills-with-microsoft-and-linkedin/assertion.json",
+    "recipient":  {
+                      "type":  "email",
+                      "hashed":  true,
+                      "identity":  "sha256$b8cc21fa46d24dd82f6d91b325fceb28d98fd51d90865b3e0b704c61b7c5eb55",
+                      "salt":  "QF8fuXtKaRsvnuNhE"
+                  },
+    "badge":  {
+                  "type":  "BadgeClass",
+                  "id":  "https://almondelf2.github.io/diy-certs-to-badges/my-badges/build-your-generative-ai-productivity-skills-with-microsoft-and-linkedin/badge-class.json",
+                  "name":  "Build Your Generative AI Productivity Skills with Microsoft and LinkedIn",
+                  "description":  "Five-course learning path from Microsoft and LinkedIn Learning covering prompt engineering for Copilot, AI productivity hacks, integrating generative AI into creative workflows, and AI-powered data analysis in PowerPoint and Excel. Completed all 5 courses (5 hours) to build generative AI productivity skills.",
+                  "image":  "https://almondelf2.github.io/diy-certs-to-badges/my-badges/build-your-generative-ai-productivity-skills-with-microsoft-and-linkedin/badge.png",
+                  "criteria":  {
+                                   "narrative":  "Completed all five courses in the Build Your Generative AI Productivity Skills with Microsoft and LinkedIn learning path on LinkedIn Learning: Microsoft Copilot: The Art of Prompt Writing, AI Productivity Hacks to Reimagine Your Workday and Career, Integrating Generative AI into the Creative Process, Copilot in PowerPoint: From Prompt to Presentation, and Excel with Copilot: AI-Driven Data Analysis."
+                               },
+                  "issuer":  {
+                                 "id":  "https://almondelf2.github.io/diy-certs-to-badges/issuer.json",
+                                 "type":  "Profile",
+                                 "name":  "Chelf",
+                                 "url":  "https://almondelf2.github.io",
+                                 "email":  "no-reply@almondelf2.github.io"
+                             },
+                  "tags":  [
+                               "AI Productivity",
+                               "AI for Business",
+                               "Artificial Intelligence (AI)",
+                               "Productivity Improvement",
+                               "Microsoft Copilot",
+                               "AI Prompting",
+                               "Prompt Engineering",
+                               "Creative Process Development",
+                               "Artificial Intelligence for Design",
+                               "Generative AI Tools",
+                               "Microsoft PowerPoint",
+                               "AI for Business Analysis",
+                               "Data Analysis",
+                               "Microsoft Excel"
+                           ]
+              },
+    "issuedOn":  "2024-07-02T00:00:00Z",
+    "evidence":  [
+                     {
+                         "type":  "Evidence",
+                         "id":  "https://www.linkedin.com/learning/certificates/a08f326559f9106b694dc875911b8fb11433be1be7a43ed69ab6ac44f2cbd4f0",
+                         "description":  "Original course completion certificate"
+                     }
+                 ],
+    "verification":  {
+                         "type":  "HostedBadge"
+                     }
+}
