@@ -39,8 +39,17 @@ param(
     [string]$IssuerName = "Chelf"
 )
 
-$baseDir = $PSScriptRoot
-if (-not $baseDir) { $baseDir = Get-Location }
+$currentDir = $PSScriptRoot
+if (-not $currentDir) { $currentDir = Get-Location }
+
+# Locate repository root (whether run from root or from diy-assets/)
+if (Test-Path (Join-Path $currentDir "my-badges")) {
+    $repoRoot = $currentDir
+} elseif (Test-Path (Join-Path (Split-Path -Parent $currentDir) "my-badges")) {
+    $repoRoot = Split-Path -Parent $currentDir
+} else {
+    $repoRoot = $currentDir
+}
 
 # Interactive prompts if parameters were omitted
 if (-not $Slug) {
@@ -76,7 +85,7 @@ if (-not $Email) {
     exit 1
 }
 
-$targetFolder = Join-Path (Join-Path $baseDir "my-badges") $Slug
+$targetFolder = Join-Path (Join-Path $repoRoot "my-badges") $Slug
 if (Test-Path $targetFolder) {
     Write-Warning "Directory '$Slug' already exists! Files may be overwritten."
 } else {
@@ -100,7 +109,7 @@ $badgeClassObj = [ordered]@{
     id = "https://$Username.github.io/diy-certs-to-badges/my-badges/$Slug/badge-class.json"
     name = $Name
     description = $Description
-    image = "https://$Username.github.io/diy-certs-to-badges/my-badges/my-badges/$Slug/badge.png"
+    image = "https://$Username.github.io/diy-certs-to-badges/my-badges/$Slug/badge.png"
     criteria = [ordered]@{
         narrative = "Successfully completed all curriculum, assignments, and requirements for $Name."
     }
@@ -128,7 +137,7 @@ if ($EvidenceUrl) {
 $assertionObj = [ordered]@{
     "@context" = "https://w3id.org/openbadges/v2"
     type = "Assertion"
-    id = "https://$Username.github.io/diy-certs-to-badges/my-badges/my-badges/$Slug/assertion.json"
+    id = "https://$Username.github.io/diy-certs-to-badges/my-badges/$Slug/assertion.json"
     recipient = [ordered]@{
         type = "email"
         hashed = $true

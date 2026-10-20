@@ -17,7 +17,7 @@ Without a digital badge, you cannot easily display those verified competencies i
 
 This repository serves a dual purpose:
 1. **Personal Hosting Provider:** Serves as the public HTTPS host (via GitHub Pages) for my own credentials, providing the required metadata endpoints (`assertion.json`, `badge-class.json`, `issuer.json`, and graphics) that Credly and Open Badge validators require.
-2. **Open Blueprint & Learning Resource:** Provides starter templates, scripts, and a [step-by-step guide](badge_creation.md) so anyone can learn how to create, self-host, and import their own Open Badges into Credly with complete privacy protection.
+2. **Open Blueprint & Learning Resource:** Provides starter templates, scripts, and a [step-by-step guide](diy-assets/badge_creation.md) so anyone can learn how to create, self-host, and import their own Open Badges into Credly with complete privacy protection.
 
 ---
 
@@ -76,16 +76,16 @@ Under the hood, Open Badges 2.0 uses **Linked Data (JSON-LD)**. To import an out
 Want to turn your own certificates into Credly-compatible Open Badges?
 
 1. **Read the Full Step-by-Step Guide:**  
-   See **[badge_creation.md](badge_creation.md)** for a beginner-friendly walkthrough covering image dimensions, JSON schemas, cryptographic hash generation commands, and Credly upload instructions.
+   See **[badge_creation.md](diy-assets/badge_creation.md)** for a beginner-friendly walkthrough covering image dimensions, JSON schemas, cryptographic hash generation commands, and Credly upload instructions.
 
-2. **Use the Starter Templates:**  
-   Copy the starter templates from the [`templates/`](my-badges/templates/) folder:
-   * [`templates/assertion.json`](templates/assertion.json) — Upload file for Credly
-   * [`templates/badge-class.json`](templates/badge-class.json) — Public badge class definition
-   * [`templates/issuer.json`](templates/issuer.json) — Issuer profile definition
+2. **Use the Starter Templates & Script:**  
+   Copy the starter templates from the [`diy-assets/templates/`](diy-assets/templates/) folder or use the automated builder script [`diy-assets/new-badge.ps1`](diy-assets/new-badge.ps1):
+   * [`diy-assets/templates/assertion.json`](diy-assets/templates/assertion.json) — Upload file for Credly
+   * [`diy-assets/templates/badge-class.json`](diy-assets/templates/badge-class.json) — Public badge class definition
+   * [`diy-assets/templates/issuer.json`](diy-assets/templates/issuer.json) — Issuer profile definition
 
 3. **Generate Your Salted Hash:**  
-   Use the copy-pasteable PowerShell or Bash scripts in [badge_creation.md](badge_creation.md) to generate your recipient hash from your Credly email.
+   Use the copy-pasteable PowerShell or Bash scripts in [badge_creation.md](diy-assets/badge_creation.md) to generate your recipient hash from your Credly email.
 
 4. **Host on GitHub Pages:**  
    Push your files to a GitHub repository, enable **GitHub Pages** (**Settings > Pages > Deploy from branch**), and upload your `assertion.json` to **Credly** under **Profile > Badge Wallet > Other > + Add badge from another provider**.

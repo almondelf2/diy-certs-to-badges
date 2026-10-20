@@ -61,22 +61,28 @@ https://YOURUSERNAME.github.io/diy-certs-to-badges/
 
 ```
 diy-certs-to-badges/
-├── issuer.json                                        <-- Global Issuer Profile
-├── badge_creation.md                                  <-- This guide
-├── templates/                                         <-- Starter templates
-│   ├── assertion.json
-│   ├── badge-class.json
-│   └── issuer.json
-├── advance-your-skills-in-it/                         <-- Badge slug (kebab-case)
-│   ├── assertion.json                                 <-- Credly import file
-│   ├── badge-class.json                               <-- Public criteria & metadata
-│   ├── badge.png                                      <-- 512x512 badge graphic
-│   └── certificate.pdf                                <-- (Optional) Source certificate
-└── data-analytics-fundamentals/
-    ├── assertion.json
-    ├── badge-class.json
-    ├── badge.png
-    └── certificate.pdf
+├── index.html                                         <-- Interactive web portfolio
+├── LICENSE                                            <-- MIT License
+├── README.md                                          <-- Project overview
+├── diy-assets/                                        <-- Creation guide, templates & scripts
+│   ├── badge_creation.md                              <-- This guide
+│   ├── new-badge.ps1                                  <-- Automated badge creator script
+│   └── templates/                                     <-- Starter templates
+│       ├── assertion.json
+│       ├── badge-class.json
+│       └── issuer.json
+└── my-badges/                                         <-- Hosted badge credentials
+    ├── issuer.json                                    <-- Global Issuer Profile
+    ├── advance-your-skills-in-it/                     <-- Badge slug (kebab-case)
+    │   ├── assertion.json                             <-- Credly import file
+    │   ├── badge-class.json                           <-- Public criteria & metadata
+    │   ├── badge.png                                  <-- 512x512 badge graphic
+    │   └── certificate.pdf                            <-- (Optional) Source certificate
+    └── data-analytics-fundamentals/
+        ├── assertion.json
+        ├── badge-class.json
+        ├── badge.png
+        └── certificate.pdf
 ```
 
 ---
