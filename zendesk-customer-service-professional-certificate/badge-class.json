@@ -1,15 +1,15 @@
 {
     "@context":  "https://w3id.org/openbadges/v2",
     "type":  "BadgeClass",
-    "id":  "https://almondelf2.github.io/my-badges/zendesk-customer-service-professional-certificate/badge-class.json",
+    "id":  "https://almondelf2.github.io/diy-certs-to-badges/zendesk-customer-service-professional-certificate/badge-class.json",
     "name":  "Zendesk Customer Service Professional Certificate",
     "description":  "Six-course professional certificate from Zendesk and LinkedIn Learning covering customer service foundations, problem-solving, rapport building, de-escalation, and social media customer service. Completed all 6 courses (4h 14m) and passed the final assessment.",
-    "image":  "https://almondelf2.github.io/my-badges/zendesk-customer-service-professional-certificate/badge.png",
+    "image":  "https://almondelf2.github.io/diy-certs-to-badges/zendesk-customer-service-professional-certificate/badge.png",
     "criteria":  {
                      "narrative":  "Completed all six courses in the Zendesk Customer Service Professional Certificate learning path on LinkedIn Learning: Customer Service Foundations, Customer Service: Problem-Solving and Troubleshooting, Building Rapport with Customers, Customer Service: Handling Abusive Customers, Creating Positive Conversations with Challenging Customers, and Serving Customers Using Social Media. Passed the final summative assessment to earn the certificate."
                  },
     "issuer":  {
-                   "id":  "https://almondelf2.github.io/my-badges/issuer.json",
+                   "id":  "https://almondelf2.github.io/diy-certs-to-badges/issuer.json",
                    "type":  "Profile",
                    "name":  "Chelf",
                    "url":  "https://almondelf2.github.io",

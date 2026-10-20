@@ -1,15 +1,15 @@
 {
     "@context":  "https://w3id.org/openbadges/v2",
     "type":  "BadgeClass",
-    "id":  "https://almondelf2.github.io/my-badges/customer-success-foundations-professional-certificate/badge-class.json",
+    "id":  "https://almondelf2.github.io/diy-certs-to-badges/customer-success-foundations-professional-certificate/badge-class.json",
     "name":  "Customer Success Foundations Professional Certificate by ChurnZero",
     "description":  "Eight-course professional certificate from ChurnZero and LinkedIn Learning covering customer success career readiness, service mindset, rapport building, onboarding for loyalty, journey mapping, customer retention, and customer experience leadership. Completed all 8 courses (6 hours) and passed the final assessment.",
-    "image":  "https://almondelf2.github.io/my-badges/customer-success-foundations-professional-certificate/badge.png",
+    "image":  "https://almondelf2.github.io/diy-certs-to-badges/customer-success-foundations-professional-certificate/badge.png",
     "criteria":  {
                      "narrative":  "Completed all eight courses in the Customer Success Foundations Professional Certificate by ChurnZero learning path on LinkedIn Learning: Move into a Customer Success Career, Developing a Service Mindset, Building Rapport with Customers, Customer Success Foundations, Onboard New Customers for Loyalty, Engagement, and Expansion, Customer Experience: Journey Mapping, Customer Retention, and Customer Experience Leadership. Passed the final summative assessment to earn the certificate."
                  },
     "issuer":  {
-                   "id":  "https://almondelf2.github.io/my-badges/issuer.json",
+                   "id":  "https://almondelf2.github.io/diy-certs-to-badges/issuer.json",
                    "type":  "Profile",
                    "name":  "Chelf",
                    "url":  "https://almondelf2.github.io",

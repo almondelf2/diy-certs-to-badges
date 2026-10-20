@@ -1,7 +1,7 @@
 {
     "@context":  "https://w3id.org/openbadges/v2",
     "type":  "Assertion",
-    "id":  "https://almondelf2.github.io/my-badges/microsoft-copilot-for-productivity-by-microsoft-and-linkedin/assertion.json",
+    "id":  "https://almondelf2.github.io/diy-certs-to-badges/microsoft-copilot-for-productivity-by-microsoft-and-linkedin/assertion.json",
     "recipient":  {
                       "type":  "email",
                       "hashed":  true,
@@ -10,15 +10,15 @@
                   },
     "badge":  {
                   "type":  "BadgeClass",
-                  "id":  "https://almondelf2.github.io/my-badges/microsoft-copilot-for-productivity/badge-class.json",
+                  "id":  "https://almondelf2.github.io/diy-certs-to-badges/microsoft-copilot-for-productivity/badge-class.json",
                   "name":  "Microsoft Copilot for Productivity by Microsoft and LinkedIn",
                   "description":  "Six-course professional certificate from Microsoft and LinkedIn Learning covering Microsoft 365 Copilot fundamentals, prompt engineering, and AI-powered workflows in Teams, Outlook, Excel, and PowerPoint. Completed all 6 courses and passed the final assessment.",
-                  "image":  "https://almondelf2.github.io/my-badges/microsoft-copilot-for-productivity/badge.png",
+                  "image":  "https://almondelf2.github.io/diy-certs-to-badges/microsoft-copilot-for-productivity/badge.png",
                   "criteria":  {
                                    "narrative":  "Completed all six courses in the Microsoft Copilot for Productivity learning path on LinkedIn Learning: Learning Microsoft 365 Copilot for Work, Microsoft Copilot: The Art of Prompt Writing, Copilot in Teams: AI-Powered Collaboration, Copilot in Outlook: Maximize Your Workday Efficiency, Excel with Copilot: AI-Driven Data Analysis, and Copilot in PowerPoint: From Prompt to Presentation. Passed the final summative assessment to earn the certificate."
                                },
                   "issuer":  {
-                                 "id":  "https://almondelf2.github.io/my-badges/issuer.json",
+                                 "id":  "https://almondelf2.github.io/diy-certs-to-badges/issuer.json",
                                  "type":  "Profile",
                                  "name":  "Chelf",
                                  "url":  "https://almondelf2.github.io",

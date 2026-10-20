@@ -51,16 +51,16 @@ When importing a badge into **Credly**, you upload the **`assertion.json`** file
 
 ## 2. Folder & URL Structure
 
-Host your badge files in a public GitHub repository. For example, if your GitHub username is `YOURUSERNAME` and your repository is named `my-badges`, your GitHub Pages URL root will be:
+Host your badge files in a public GitHub repository. For example, if your GitHub username is `YOURUSERNAME` and your repository is named `diy-certs-to-badges`, your GitHub Pages URL root will be:
 
 ```
-https://YOURUSERNAME.github.io/my-badges/
+https://YOURUSERNAME.github.io/diy-certs-to-badges/
 ```
 
 ### Recommended Directory Layout
 
 ```
-my-badges/
+diy-certs-to-badges/
 ├── issuer.json                                        <-- Global Issuer Profile
 ├── badge_creation.md                                  <-- This guide
 ├── templates/                                         <-- Starter templates
@@ -101,7 +101,7 @@ The Issuer Profile describes the entity awarding the credential.
 
 Save this file in your root folder as `issuer.json`:
 ```
-https://YOURUSERNAME.github.io/my-badges/issuer.json
+https://YOURUSERNAME.github.io/diy-certs-to-badges/issuer.json
 ```
 
 ### Schema & Properties:
@@ -119,7 +119,7 @@ https://YOURUSERNAME.github.io/my-badges/issuer.json
 {
   "@context": "https://w3id.org/openbadges/v2",
   "type": "Profile",
-  "id": "https://YOURUSERNAME.github.io/my-badges/issuer.json",
+  "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/issuer.json",
   "name": "Your Organization or Full Name",
   "url": "https://YOURUSERNAME.github.io",
   "email": "no-reply@YOURUSERNAME.github.io"
@@ -137,7 +137,7 @@ The `BadgeClass` defines the achievement, learning outcomes, criteria, and tags.
 
 Save this in each badge subfolder:
 ```
-https://YOURUSERNAME.github.io/my-badges/BADGE-NAME/badge-class.json
+https://YOURUSERNAME.github.io/diy-certs-to-badges/BADGE-NAME/badge-class.json
 ```
 
 ### Schema & Properties:
@@ -158,15 +158,15 @@ https://YOURUSERNAME.github.io/my-badges/BADGE-NAME/badge-class.json
 {
   "@context": "https://w3id.org/openbadges/v2",
   "type": "BadgeClass",
-  "id": "https://YOURUSERNAME.github.io/my-badges/intro-data-science/badge-class.json",
+  "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/intro-data-science/badge-class.json",
   "name": "Introduction to Data Science",
   "description": "Comprehensive course covering exploratory data analysis, statistics, Python, and machine learning fundamentals.",
-  "image": "https://YOURUSERNAME.github.io/my-badges/intro-data-science/badge.png",
+  "image": "https://YOURUSERNAME.github.io/diy-certs-to-badges/intro-data-science/badge.png",
   "criteria": {
     "narrative": "Completed all 10 modular units, passed all weekly coding labs, and scored 80% or higher on the comprehensive final exam."
   },
   "issuer": {
-    "id": "https://YOURUSERNAME.github.io/my-badges/issuer.json",
+    "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/issuer.json",
     "type": "Profile",
     "name": "Your Organization or Full Name",
     "url": "https://YOURUSERNAME.github.io",
@@ -254,7 +254,7 @@ The `assertion.json` records that a specific recipient earned the badge.
 {
   "@context": "https://w3id.org/openbadges/v2",
   "type": "Assertion",
-  "id": "https://YOURUSERNAME.github.io/my-badges/intro-data-science/assertion.json",
+  "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/intro-data-science/assertion.json",
   "recipient": {
     "type": "email",
     "hashed": true,
@@ -263,15 +263,15 @@ The `assertion.json` records that a specific recipient earned the badge.
   },
   "badge": {
     "type": "BadgeClass",
-    "id": "https://YOURUSERNAME.github.io/my-badges/intro-data-science/badge-class.json",
+    "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/intro-data-science/badge-class.json",
     "name": "Introduction to Data Science",
     "description": "Comprehensive course covering exploratory data analysis, statistics, Python, and machine learning fundamentals.",
-    "image": "https://YOURUSERNAME.github.io/my-badges/intro-data-science/badge.png",
+    "image": "https://YOURUSERNAME.github.io/diy-certs-to-badges/intro-data-science/badge.png",
     "criteria": {
       "narrative": "Completed all 10 modular units, passed all weekly coding labs, and scored 80% or higher on the comprehensive final exam."
     },
     "issuer": {
-      "id": "https://YOURUSERNAME.github.io/my-badges/issuer.json",
+      "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/issuer.json",
       "type": "Profile",
       "name": "Your Organization or Full Name",
       "url": "https://YOURUSERNAME.github.io",
@@ -310,7 +310,7 @@ The `assertion.json` records that a specific recipient earned the badge.
    ```
 
 2. **Enable GitHub Pages:**
-   * Go to your repository on GitHub: `https://github.com/YOURUSERNAME/my-badges`.
+   * Go to your repository on GitHub: `https://github.com/YOURUSERNAME/diy-certs-to-badges`.
    * Navigate to **Settings > Pages** (in the left sidebar).
    * Under **Build and deployment > Source**, select **Deploy from a branch**.
    * Under **Branch**, select **`main`** and folder **`/ (root)`**.
@@ -319,7 +319,7 @@ The `assertion.json` records that a specific recipient earned the badge.
 3. **Verify Public Accessibility:**
    Wait 1–2 minutes for the initial deployment. Test using `curl` or open the links in an incognito browser window:
    ```bash
-   curl -I https://YOURUSERNAME.github.io/my-badges/intro-data-science/assertion.json
+   curl -I https://YOURUSERNAME.github.io/diy-certs-to-badges/intro-data-science/assertion.json
    ```
    **Expected Response:** `HTTP/1.1 200 OK` (with `Content-Type: application/json`).
 

@@ -97,15 +97,15 @@ $nowIso = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddT00:00:00Z")
 $badgeClassObj = [ordered]@{
     "@context" = "https://w3id.org/openbadges/v2"
     type = "BadgeClass"
-    id = "https://$Username.github.io/my-badges/$Slug/badge-class.json"
+    id = "https://$Username.github.io/diy-certs-to-badges/$Slug/badge-class.json"
     name = $Name
     description = $Description
-    image = "https://$Username.github.io/my-badges/$Slug/badge.png"
+    image = "https://$Username.github.io/diy-certs-to-badges/$Slug/badge.png"
     criteria = [ordered]@{
         narrative = "Successfully completed all curriculum, assignments, and requirements for $Name."
     }
     issuer = [ordered]@{
-        id = "https://$Username.github.io/my-badges/issuer.json"
+        id = "https://$Username.github.io/diy-certs-to-badges/issuer.json"
         type = "Profile"
         name = $IssuerName
         url = "https://$Username.github.io"
@@ -128,7 +128,7 @@ if ($EvidenceUrl) {
 $assertionObj = [ordered]@{
     "@context" = "https://w3id.org/openbadges/v2"
     type = "Assertion"
-    id = "https://$Username.github.io/my-badges/$Slug/assertion.json"
+    id = "https://$Username.github.io/diy-certs-to-badges/$Slug/assertion.json"
     recipient = [ordered]@{
         type = "email"
         hashed = $true

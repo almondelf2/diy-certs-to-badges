@@ -1,4 +1,4 @@
-# 🎖️ My Badges: Unofficial Badges for Official Certificates
+# 🎖️ DIY Certs to Badges: Unofficial Badges for Official Certificates
 
 [![Open Badges 2.0](https://img.shields.io/badge/Open%20Badges-v2.0%20Compliant-blue.svg)](https://www.imsglobal.org/sites/default/files/Badges/OBv2p0Final/index.html)
 [![Credly Compatible](https://img.shields.io/badge/Credly-Import%20Compatible-orange.svg)](https://support.credly.com/hc/en-us/articles/360055746731-Adding-outside-badges-to-your-Credly-profile)
