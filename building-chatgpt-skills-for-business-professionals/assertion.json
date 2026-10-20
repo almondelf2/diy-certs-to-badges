@@ -1,0 +1,55 @@
+{
+    "@context":  "https://w3id.org/openbadges/v2",
+    "type":  "Assertion",
+    "id":  "https://almondelf2.github.io/my-badges/building-chatgpt-skills-for-business-professionals/assertion.json",
+    "recipient":  {
+                      "type":  "email",
+                      "hashed":  true,
+                      "identity":  "sha256$3b3eea485824afe042749f8d7695d5c0cccbdd9eeb75dba94701fc6e3f720a41",
+                      "salt":  "EHxksRFqw99fKCTY2"
+                  },
+    "badge":  {
+                  "type":  "BadgeClass",
+                  "id":  "https://almondelf2.github.io/my-badges/building-chatgpt-skills-for-business-professionals/badge-class.json",
+                  "name":  "Building ChatGPT Skills for Business Professionals",
+                  "description":  "Six-course learning path from LinkedIn Learning covering generative AI fundamentals, AI-powered research and writing, prompt engineering with ChatGPT, business applications of GPT, data analysis in Excel with ChatGPT, and ethical considerations of generative AI. Completed all 6 courses (7 hours) to build ChatGPT skills for business.",
+                  "image":  "https://almondelf2.github.io/my-badges/building-chatgpt-skills-for-business-professionals/badge.png",
+                  "criteria":  {
+                                   "narrative":  "Completed all six courses in the Building ChatGPT Skills for Business Professionals learning path on LinkedIn Learning: What Is Generative AI?, How to Research and Write Using Generative AI Tools, Prompt Engineering with ChatGPT, Nano Tips for Using ChatGPT for Business with Rachel Woods, Excel and ChatGPT: Data Analysis Power Tips, and Ethics in the Age of Generative AI."
+                               },
+                  "issuer":  {
+                                 "id":  "https://almondelf2.github.io/my-badges/issuer.json",
+                                 "type":  "Profile",
+                                 "name":  "Chelf",
+                                 "url":  "https://almondelf2.github.io",
+                                 "email":  "no-reply@almondelf2.github.io"
+                             },
+                  "tags":  [
+                               "Generative AI",
+                               "Artificial Intelligence (AI)",
+                               "Generative AI Tools",
+                               "Writing",
+                               "Research Skills",
+                               "ChatGPT",
+                               "Prompt Engineering",
+                               "AI for Business",
+                               "Business Strategy",
+                               "AI for Business Analysis",
+                               "Microsoft Excel",
+                               "Statistical Data Analysis",
+                               "Responsible AI",
+                               "Computer Ethics"
+                           ]
+              },
+    "issuedOn":  "2024-07-08T00:00:00Z",
+    "evidence":  [
+                     {
+                         "type":  "Evidence",
+                         "id":  "https://www.linkedin.com/learning/certificates/5c7333f42deeb8d8f5f5155a8992b136c55e291e5c077d5021909a17bfdbb071",
+                         "description":  "Original course completion certificate"
+                     }
+                 ],
+    "verification":  {
+                         "type":  "HostedBadge"
+                     }
+}

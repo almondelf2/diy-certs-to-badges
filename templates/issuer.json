@@ -1,0 +1,8 @@
+{
+  "@context": "https://w3id.org/openbadges/v2",
+  "type": "Profile",
+  "id": "https://YOURUSERNAME.github.io/my-badges/issuer.json",
+  "name": "Your Full Name",
+  "url": "https://YOURUSERNAME.github.io",
+  "email": "you@example.com"
+}

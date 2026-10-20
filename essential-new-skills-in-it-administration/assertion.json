@@ -1,0 +1,44 @@
+{
+    "@context":  "https://w3id.org/openbadges/v2",
+    "type":  "Assertion",
+    "id":  "https://almondelf2.github.io/my-badges/essential-new-skills-in-it-administration/assertion.json",
+    "recipient":  {
+                      "type":  "email",
+                      "hashed":  true,
+                      "identity":  "sha256$57b7def3b2c6153b221375583cc92f00bfdceda7523f406fd1fda5de8085736b",
+                      "salt":  "w4smnSh3jKNzkKdRD"
+                  },
+    "badge":  {
+                  "type":  "BadgeClass",
+                  "id":  "https://almondelf2.github.io/my-badges/essential-new-skills-in-it-administration/badge-class.json",
+                  "name":  "Essential New Skills in IT Administration",
+                  "description":  "Five-course learning path from LinkedIn Learning covering networking fundamentals, server administration, virtualization with Hyper-V and VMware, and cloud computing concepts and public platform comparison. Completed all 5 courses to build essential IT administration skills.",
+                  "image":  "https://almondelf2.github.io/my-badges/essential-new-skills-in-it-administration/badge.png",
+                  "criteria":  {
+                                   "narrative":  "Completed all five courses in the Essential New Skills in IT Administration learning path on LinkedIn Learning: Networking Foundations: Networking Basics, Server Administration Essential Training, Learning Virtualization, Learning Cloud Computing: Core Concepts, and A Beginner\u0027s Guide to Public Cloud Options."
+                               },
+                  "issuer":  {
+                                 "id":  "https://almondelf2.github.io/my-badges/issuer.json",
+                                 "type":  "Profile",
+                                 "name":  "Chelf",
+                                 "url":  "https://almondelf2.github.io",
+                                 "email":  "no-reply@almondelf2.github.io"
+                             },
+                  "tags":  [
+                               "Network Administration",
+                               "Virtualization",
+                               "Cloud Computing"
+                           ]
+              },
+    "issuedOn":  "2024-09-02T00:00:00Z",
+    "evidence":  [
+                     {
+                         "type":  "Evidence",
+                         "id":  "https://www.linkedin.com/learning/certificates/9882612e07c63cb8760d22856208f1cda9bea1e67232086d72f632efa48fc19d",
+                         "description":  "Original course completion certificate"
+                     }
+                 ],
+    "verification":  {
+                         "type":  "HostedBadge"
+                     }
+}

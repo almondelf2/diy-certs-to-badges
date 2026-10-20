@@ -1,0 +1,44 @@
+{
+  "@context": "https://w3id.org/openbadges/v2",
+  "type": "Assertion",
+  "id": "https://YOURUSERNAME.github.io/my-badges/BADGE-NAME/assertion.json",
+  "recipient": {
+    "type": "email",
+    "hashed": true,
+    "identity": "sha256$SHA256_HEX_DIGEST_HERE",
+    "salt": "random-salt-123"
+  },
+  "badge": {
+    "type": "BadgeClass",
+    "id": "https://YOURUSERNAME.github.io/my-badges/BADGE-NAME/badge-class.json",
+    "name": "Course Name Here",
+    "description": "Brief description of what this course covered and what you learned.",
+    "image": "https://YOURUSERNAME.github.io/my-badges/BADGE-NAME/badge.png",
+    "criteria": {
+      "narrative": "Completed all modules, assignments, and requirements for this certification."
+    },
+    "issuer": {
+      "id": "https://YOURUSERNAME.github.io/my-badges/issuer.json",
+      "type": "Profile",
+      "name": "Your Full Name",
+      "url": "https://YOURUSERNAME.github.io",
+      "email": "no-reply@YOURUSERNAME.github.io"
+    },
+    "tags": [
+      "Skill 1",
+      "Skill 2",
+      "Skill 3"
+    ]
+  },
+  "issuedOn": "2024-06-15T00:00:00Z",
+  "evidence": [
+    {
+      "type": "Evidence",
+      "id": "https://YOURUSERNAME.github.io/my-badges/BADGE-NAME/certificate.pdf",
+      "description": "Original course completion certificate"
+    }
+  ],
+  "verification": {
+    "type": "HostedBadge"
+  }
+}

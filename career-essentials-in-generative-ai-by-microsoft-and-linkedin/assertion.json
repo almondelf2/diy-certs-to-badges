@@ -1,0 +1,50 @@
+{
+    "@context":  "https://w3id.org/openbadges/v2",
+    "type":  "Assertion",
+    "id":  "https://almondelf2.github.io/my-badges/career-essentials-in-generative-ai-by-microsoft-and-linkedin/assertion.json",
+    "recipient":  {
+                      "type":  "email",
+                      "hashed":  true,
+                      "identity":  "sha256$b1803852400e99de29aa4603ce24de765768cf3a40d6d66e1625f45e0e494edd",
+                      "salt":  "uuXp5aSeJmd8rQXhm"
+                  },
+    "badge":  {
+                  "type":  "BadgeClass",
+                  "id":  "https://almondelf2.github.io/my-badges/career-essentials-in-generative-ai/badge-class.json",
+                  "name":  "Career Essentials in Generative AI by Microsoft and LinkedIn",
+                  "description":  "Five-course professional certificate from Microsoft and LinkedIn Learning covering generative AI fundamentals, AI concepts, AI literacy, Microsoft 365 Copilot, and ethical considerations of deploying generative AI. Completed all 5 courses (4 hours) and passed the final assessment.",
+                  "image":  "https://almondelf2.github.io/my-badges/career-essentials-in-generative-ai/badge.png",
+                  "criteria":  {
+                                   "narrative":  "Completed all five courses in the Career Essentials in Generative AI by Microsoft and LinkedIn learning path on LinkedIn Learning: Generative AI: From Prompts to Partnership, Everyday AI Concepts, Your Top AI Questions Answered: AI Literacy for Everyone, Learning Microsoft 365 Copilot for Work, and Ethics in the Age of Generative AI. Passed the final summative assessment to earn the certificate."
+                               },
+                  "issuer":  {
+                                 "id":  "https://almondelf2.github.io/my-badges/issuer.json",
+                                 "type":  "Profile",
+                                 "name":  "Chelf",
+                                 "url":  "https://almondelf2.github.io",
+                                 "email":  "no-reply@almondelf2.github.io"
+                             },
+                  "tags":  [
+                               "Generative AI",
+                               "Artificial Intelligence (AI)",
+                               "AI Literacy",
+                               "Responsible AI",
+                               "Microsoft Copilot",
+                               "Microsoft 365",
+                               "AI Productivity",
+                               "AI for Business",
+                               "Computer Ethics"
+                           ]
+              },
+    "issuedOn":  "2024-06-28T00:00:00Z",
+    "evidence":  [
+                     {
+                         "type":  "Evidence",
+                         "id":  "https://www.linkedin.com/learning/certificates/e3b5beabd785ae4f4fa456028a49514b9046aa51a6bc08b42baecfa9a0e339e4",
+                         "description":  "Original course completion certificate"
+                     }
+                 ],
+    "verification":  {
+                         "type":  "HostedBadge"
+                     }
+}

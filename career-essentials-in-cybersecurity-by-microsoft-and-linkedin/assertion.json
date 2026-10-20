@@ -1,0 +1,46 @@
+{
+    "@context":  "https://w3id.org/openbadges/v2",
+    "type":  "Assertion",
+    "id":  "https://almondelf2.github.io/my-badges/career-essentials-in-cybersecurity-by-microsoft-and-linkedin/assertion.json",
+    "recipient":  {
+                      "type":  "email",
+                      "hashed":  true,
+                      "identity":  "sha256$10677ae17801ace408632842045cf9c99e320572bd6a68a3ee11343095171709",
+                      "salt":  "s4A66Sc9rgrryjvVV"
+                  },
+    "badge":  {
+                  "type":  "BadgeClass",
+                  "id":  "https://almondelf2.github.io/my-badges/career-essentials-in-cybersecurity/badge-class.json",
+                  "name":  "Career Essentials in Cybersecurity by Microsoft and LinkedIn",
+                  "description":  "Four-course professional certificate from Microsoft and LinkedIn Learning covering the cybersecurity threat landscape, security terminology, cybersecurity frameworks and standards (NIST, COBIT), and AI-powered security operations with Microsoft Security Copilot. Completed all 4 courses (6 hours) and passed the final assessment.",
+                  "image":  "https://almondelf2.github.io/my-badges/career-essentials-in-cybersecurity/badge.png",
+                  "criteria":  {
+                                   "narrative":  "Completed all four courses in the Career Essentials in Cybersecurity by Microsoft and LinkedIn learning path on LinkedIn Learning: The Cybersecurity Threat Landscape, Cybersecurity Awareness: Cybersecurity Terminology, Cybersecurity Foundations, and Microsoft Security Copilot. Passed the final summative assessment to earn the certificate."
+                               },
+                  "issuer":  {
+                                 "id":  "https://almondelf2.github.io/my-badges/issuer.json",
+                                 "type":  "Profile",
+                                 "name":  "Chelf",
+                                 "url":  "https://almondelf2.github.io",
+                                 "email":  "no-reply@almondelf2.github.io"
+                             },
+                  "tags":  [
+                               "Threat \u0026 Vulnerability Management",
+                               "Cybersecurity",
+                               "Information Security Awareness",
+                               "Security",
+                               "Incident Response"
+                           ]
+              },
+    "issuedOn":  "2024-08-02T00:00:00Z",
+    "evidence":  [
+                     {
+                         "type":  "Evidence",
+                         "id":  "https://www.linkedin.com/learning/certificates/8a0c9c1657a79d3e1ae4e45e0fa19f98a99bba2ffd32f807f24e10e00e46b0fe",
+                         "description":  "Original course completion certificate"
+                     }
+                 ],
+    "verification":  {
+                         "type":  "HostedBadge"
+                     }
+}
