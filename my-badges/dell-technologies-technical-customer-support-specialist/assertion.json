@@ -1,0 +1,59 @@
+{
+    "@context": "https://w3id.org/openbadges/v2",
+    "type": "Assertion",
+    "id": "https://almondelf2.github.io/diy-certs-to-badges/my-badges/dell-technologies-technical-customer-support-specialist/assertion.json",
+    "recipient": {
+        "type": "email",
+        "hashed": true,
+        "identity": "sha256$e7940a3cbe0b2fe3c1712dc63bd0c66f76fe60ee2d875e947734f44e6568a779",
+        "salt": "XPq2dGH0meMjIr4DJ"
+    },
+    "badge": {
+        "@context": "https://w3id.org/openbadges/v2",
+        "type": "BadgeClass",
+        "id": "https://almondelf2.github.io/diy-certs-to-badges/my-badges/dell-technologies-technical-customer-support-specialist/badge-class.json",
+        "name": "Dell Technologies Technical Customer Support Specialist",
+        "description": "Five-course professional certificate developed by Dell Technologies on Coursera. Prepares learners for technical customer support and IT help desk roles by covering computer hardware architecture and diagnostics, operating system and software troubleshooting, networking and cybersecurity fundamentals, omnichannel customer service communication, active listening, conflict de-escalation, and technical incident management.",
+        "image": "https://almondelf2.github.io/diy-certs-to-badges/my-badges/dell-technologies-technical-customer-support-specialist/badge.svg",
+        "criteria": {
+            "narrative": "Completed all five courses in the Dell Technologies Technical Customer Support Specialist Professional Certificate on Coursera: (1) Dell Technologies Technical Support Career Introduction, (2) Dell Technologies Technical Support for Hardware, (3) Dell Technologies Technical Support for Software, (4) Dell Technologies Networking & Security Technical Support, and (5) Dell Technologies Customer Service for Technical Support."
+        },
+        "issuer": {
+            "id": "https://almondelf2.github.io/diy-certs-to-badges/my-badges/issuer.json",
+            "type": "Profile",
+            "name": "Chelf",
+            "url": "https://almondelf2.github.io",
+            "email": "no-reply@almondelf2.github.io"
+        },
+        "tags": [
+            "Technical Support",
+            "Computer Hardware",
+            "Hardware Troubleshooting",
+            "Operating Systems",
+            "Software Troubleshooting",
+            "Computer Networking",
+            "Network Troubleshooting",
+            "Network Security",
+            "Customer Service",
+            "Active Listening",
+            "Conflict Resolution",
+            "De-escalation",
+            "IT Service Management",
+            "Help Desk Support",
+            "Incident Management",
+            "System Diagnostics",
+            "Dell Technologies"
+        ]
+    },
+    "issuedOn": "2026-10-21T00:00:00Z",
+    "evidence": [
+        {
+            "type": "Evidence",
+            "id": "https://coursera.org/share/cbfb355fe1854fdea2f9380a822f0fc1",
+            "description": "Original course completion certificate"
+        }
+    ],
+    "verification": {
+        "type": "HostedBadge"
+    }
+}

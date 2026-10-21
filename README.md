@@ -38,6 +38,7 @@ Each badge directory contains the self-contained assertion (`assertion.json`), p
 | **[IT Support Career Track](my-badges/explore-a-career-in-it-support/)** | LinkedIn Learning | Help Desk Fundamentals, Hardware Diagnostics, Network Basics |
 | **[ChatGPT for Business](my-badges/building-chatgpt-skills-for-business-professionals/)** | LinkedIn Learning | Workplace Automation, Generative AI Strategies, Data Synthesis |
 | **[Generative AI Productivity](my-badges/build-your-generative-ai-productivity-skills-with-microsoft-and-linkedin/)** | Microsoft & LinkedIn | Modern AI Tools, Workflow Automation, Workplace Productivity |
+| **[Dell Technical Support Specialist](my-badges/dell-technologies-technical-customer-support-specialist/)** | Dell Technologies & Coursera | Hardware Troubleshooting, Software Support, Networking, Customer Service, De-escalation |
 
 ---
 
