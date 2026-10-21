@@ -39,6 +39,7 @@ Each badge directory contains the self-contained assertion (`assertion.json`), p
 | **[ChatGPT for Business](my-badges/building-chatgpt-skills-for-business-professionals/)** | LinkedIn Learning | Workplace Automation, Generative AI Strategies, Data Synthesis |
 | **[Generative AI Productivity](my-badges/build-your-generative-ai-productivity-skills-with-microsoft-and-linkedin/)** | Microsoft & LinkedIn | Modern AI Tools, Workflow Automation, Workplace Productivity |
 | **[Dell Technical Support Specialist](my-badges/dell-technologies-technical-customer-support-specialist/)** | Dell Technologies & Coursera | Hardware Troubleshooting, Software Support, Networking, Customer Service, De-escalation |
+| **[IT & Cloud Fundamentals](my-badges/it-cloud-fundamentals/)** | IBM & Coursera | Cloud Computing, IaaS/PaaS/SaaS, Hardware, Operating Systems, Networking, Cybersecurity, CompTIA Tech+ |
 
 ---
 

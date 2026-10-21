@@ -1,0 +1,61 @@
+{
+    "@context": "https://w3id.org/openbadges/v2",
+    "type": "Assertion",
+    "id": "https://almondelf2.github.io/diy-certs-to-badges/my-badges/it-cloud-fundamentals/assertion.json",
+    "recipient": {
+        "type": "email",
+        "hashed": true,
+        "identity": "sha256$0a0e2b8ebe911053a69932a04855638f8d8de820a5d2559aecb740c6f1c25750",
+        "salt": "c3rWiF1woV92uIdSZ"
+    },
+    "badge": {
+        "@context": "https://w3id.org/openbadges/v2",
+        "type": "BadgeClass",
+        "id": "https://almondelf2.github.io/diy-certs-to-badges/my-badges/it-cloud-fundamentals/badge-class.json",
+        "name": "Information Technology (IT) and Cloud Fundamentals",
+        "description": "Six-course specialization developed by IBM on Coursera. Prepares learners for foundational IT and cloud computing roles, covering hardware architecture, operating system configuration, software development basics, programming logic, relational databases, networking and storage solutions, cybersecurity fundamentals, cloud computing service and deployment models (IaaS, PaaS, SaaS, Public, Private, Hybrid), and preparation for the CompTIA Tech+ (ITF+) certification.",
+        "image": "https://almondelf2.github.io/diy-certs-to-badges/my-badges/it-cloud-fundamentals/badge.svg",
+        "criteria": {
+            "narrative": "Completed all six courses in the Information Technology (IT) and Cloud Fundamentals Specialization developed by IBM on Coursera: (1) Introduction to Hardware and Operating Systems, (2) Introduction to Software, Programming, and Databases, (3) Introduction to Cloud Computing, (4) Introduction to Networking and Storage, (5) Introduction to Cybersecurity Essentials, and (6) Practice Exam for CompTIA Tech+ Certification."
+        },
+        "issuer": {
+            "id": "https://almondelf2.github.io/diy-certs-to-badges/my-badges/issuer.json",
+            "type": "Profile",
+            "name": "Chelf",
+            "url": "https://almondelf2.github.io",
+            "email": "no-reply@almondelf2.github.io"
+        },
+        "tags": [
+            "Cloud Computing",
+            "Cloud Architecture",
+            "IaaS",
+            "PaaS",
+            "SaaS",
+            "Virtualization",
+            "Computer Hardware",
+            "Operating Systems",
+            "Hardware Troubleshooting",
+            "Software Management",
+            "Computer Networking",
+            "Data Storage",
+            "Cybersecurity Essentials",
+            "Network Security",
+            "Relational Databases",
+            "Programming Logic",
+            "IT Support",
+            "CompTIA Tech+",
+            "IBM"
+        ]
+    },
+    "issuedOn": "2025-01-20T00:00:00Z",
+    "evidence": [
+        {
+            "type": "Evidence",
+            "id": "https://coursera.org/share/c7bc9305534630b71c417b45ecee969b",
+            "description": "Original course completion certificate"
+        }
+    ],
+    "verification": {
+        "type": "HostedBadge"
+    }
+}
