@@ -1,0 +1,59 @@
+{
+    "@context": "https://w3id.org/openbadges/v2",
+    "type": "Assertion",
+    "id": "https://almondelf2.github.io/diy-certs-to-badges/my-badges/uiux-design-fundamentals-prototyping-with-generative-ai/assertion.json",
+    "recipient": {
+        "type": "email",
+        "hashed": true,
+        "identity": "sha256$28ea1af0d116c50049ae5fc706ecf924efdb9fe6f6530b229390964c65a16687",
+        "salt": "meP3NvERtny0u2en8"
+    },
+    "badge": {
+        "@context": "https://w3id.org/openbadges/v2",
+        "type": "BadgeClass",
+        "id": "https://almondelf2.github.io/diy-certs-to-badges/my-badges/uiux-design-fundamentals-prototyping-with-generative-ai/badge-class.json",
+        "name": "UI/UX Design Fundamentals & Prototyping with Generative AI",
+        "description": "Three-course specialization developed by SkillUp on Coursera. Covers foundational UI/UX methodologies, usability principles, user research, wireframing, and interactive prototyping using Figma, combined with generative AI tools to accelerate design workflows, automate layout variations, and optimize user experience.",
+        "image": "https://almondelf2.github.io/diy-certs-to-badges/my-badges/uiux-design-fundamentals-prototyping-with-generative-ai/badge.svg",
+        "criteria": {
+            "narrative": "Completed all three courses in the UI/UX Design Fundamentals & Prototyping with Generative AI Specialization on Coursera: (1) UX/UI Design Fundamentals: Usability and Visual Principles, (2) UI/UX Wireframing and Prototyping with Figma, and (3) Generative AI: The Future of UX/UI Design."
+        },
+        "issuer": {
+            "id": "https://almondelf2.github.io/diy-certs-to-badges/my-badges/issuer.json",
+            "type": "Profile",
+            "name": "Chelf",
+            "url": "https://almondelf2.github.io",
+            "email": "no-reply@almondelf2.github.io"
+        },
+        "tags": [
+            "UI/UX Design",
+            "User Interface",
+            "User Experience",
+            "Generative AI",
+            "Prototyping",
+            "Wireframing",
+            "Figma",
+            "Usability Testing",
+            "Interaction Design",
+            "User Research",
+            "Heuristic Evaluation",
+            "User Journey Mapping",
+            "A/B Testing",
+            "Responsive Design",
+            "Information Architecture",
+            "Design Systems",
+            "SkillUp"
+        ]
+    },
+    "issuedOn": "2026-10-19T00:00:00Z",
+    "evidence": [
+        {
+            "type": "Evidence",
+            "id": "https://coursera.org/share/610a78b13b139d8562541ed5e0415817",
+            "description": "Original course completion certificate"
+        }
+    ],
+    "verification": {
+        "type": "HostedBadge"
+    }
+}

@@ -41,6 +41,7 @@ Each badge directory contains the self-contained assertion (`assertion.json`), p
 | **[Dell Technical Support Specialist](my-badges/dell-technologies-technical-customer-support-specialist/)** | Dell Technologies & Coursera | Hardware Troubleshooting, Software Support, Networking, Customer Service, De-escalation |
 | **[IT & Cloud Fundamentals](my-badges/it-cloud-fundamentals/)** | IBM & Coursera | Cloud Computing, IaaS/PaaS/SaaS, Hardware, Operating Systems, Networking, Cybersecurity, CompTIA Tech+ |
 | **[Hardware & OS Foundations](my-badges/hardware-and-operating-system-foundations/)** | Illinois Tech & Coursera | Windows & Linux Administration, CLI, PowerShell, Bash, Access Control, OS Security |
+| **[UI/UX Design with GenAI](my-badges/uiux-design-fundamentals-prototyping-with-generative-ai/)** | SkillUp & Coursera | UI/UX Design, Figma Prototyping, Generative AI, Usability Testing, Wireframing |
 
 ---
 
