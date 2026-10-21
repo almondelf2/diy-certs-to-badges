@@ -40,6 +40,7 @@ Each badge directory contains the self-contained assertion (`assertion.json`), p
 | **[Generative AI Productivity](my-badges/build-your-generative-ai-productivity-skills-with-microsoft-and-linkedin/)** | Microsoft & LinkedIn | Modern AI Tools, Workflow Automation, Workplace Productivity |
 | **[Dell Technical Support Specialist](my-badges/dell-technologies-technical-customer-support-specialist/)** | Dell Technologies & Coursera | Hardware Troubleshooting, Software Support, Networking, Customer Service, De-escalation |
 | **[IT & Cloud Fundamentals](my-badges/it-cloud-fundamentals/)** | IBM & Coursera | Cloud Computing, IaaS/PaaS/SaaS, Hardware, Operating Systems, Networking, Cybersecurity, CompTIA Tech+ |
+| **[Hardware & OS Foundations](my-badges/hardware-and-operating-system-foundations/)** | Illinois Tech & Coursera | Windows & Linux Administration, CLI, PowerShell, Bash, Access Control, OS Security |
 
 ---
 

@@ -1,0 +1,35 @@
+{
+    "@context": "https://w3id.org/openbadges/v2",
+    "type": "BadgeClass",
+    "id": "https://almondelf2.github.io/diy-certs-to-badges/my-badges/hardware-and-operating-system-foundations/badge-class.json",
+    "name": "Hardware and Operating System Foundations",
+    "description": "Four-course specialization developed by the Illinois Institute of Technology (Illinois Tech) on Coursera. Provides a comprehensive foundation in the features, management, and security of both Windows and Linux operating systems. Covers command-line tools (CLI, PowerShell, Bash), filesystem hierarchy, user access control, process management, registry configuration, threat hardening, and system security protocols.",
+    "image": "https://almondelf2.github.io/diy-certs-to-badges/my-badges/hardware-and-operating-system-foundations/badge.svg",
+    "criteria": {
+        "narrative": "Completed all four courses in the Hardware and Operating System Foundations Specialization developed by the Illinois Institute of Technology on Coursera: (1) Hardware and Operating System Foundations I, (2) Hardware and Operating System Foundations II, (3) Hardware and Operating System Foundations III, and (4) Hardware and OS Foundations Capstone."
+    },
+    "issuer": {
+        "id": "https://almondelf2.github.io/diy-certs-to-badges/my-badges/issuer.json",
+        "type": "Profile",
+        "name": "Chelf",
+        "url": "https://almondelf2.github.io",
+        "email": "no-reply@almondelf2.github.io"
+    },
+    "tags": [
+        "Windows Administration",
+        "Linux Administration",
+        "Operating Systems",
+        "Computer Hardware",
+        "Command-Line Interface",
+        "PowerShell",
+        "Bash Scripting",
+        "System Security",
+        "Access Control",
+        "Process Management",
+        "File System Management",
+        "Hardware Troubleshooting",
+        "IT Support",
+        "System Administration",
+        "Illinois Tech"
+    ]
+}
