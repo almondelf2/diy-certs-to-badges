@@ -23,7 +23,7 @@ This repository serves a dual purpose:
 
 ## 📂 Current Badges in This Repository
 
-Each badge directory contains the self-contained assertion (`assertion.json`), public class definition (`badge-class.json`), custom 512×512 graphic (`badge.png`), and official certificate evidence:
+Each badge directory contains the self-contained assertion (`assertion.json`), public class definition (`badge-class.json`), scalable vector graphic (`badge.svg`), and official certificate evidence:
 
 | Badge / Credential | Provider | Skills & Competencies Tagged |
 |---|---|---|

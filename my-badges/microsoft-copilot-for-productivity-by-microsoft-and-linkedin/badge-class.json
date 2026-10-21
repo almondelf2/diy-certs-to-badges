@@ -4,7 +4,7 @@
     "id":  "https://almondelf2.github.io/diy-certs-to-badges/my-badges/microsoft-copilot-for-productivity-by-microsoft-and-linkedin/badge-class.json",
     "name":  "Microsoft Copilot for Productivity by Microsoft and LinkedIn",
     "description":  "Six-course professional certificate from Microsoft and LinkedIn Learning covering Microsoft 365 Copilot fundamentals, prompt engineering, and AI-powered workflows in Teams, Outlook, Excel, and PowerPoint. Completed all 6 courses and passed the final assessment.",
-    "image":  "https://almondelf2.github.io/diy-certs-to-badges/my-badges/microsoft-copilot-for-productivity-by-microsoft-and-linkedin/badge.png",
+    "image":  "https://almondelf2.github.io/diy-certs-to-badges/my-badges/microsoft-copilot-for-productivity-by-microsoft-and-linkedin/badge.svg",
     "criteria":  {
                      "narrative":  "Completed all six courses in the Microsoft Copilot for Productivity learning path on LinkedIn Learning: Learning Microsoft 365 Copilot for Work, Microsoft Copilot: The Art of Prompt Writing, Copilot in Teams: AI-Powered Collaboration, Copilot in Outlook: Maximize Your Workday Efficiency, Excel with Copilot: AI-Driven Data Analysis, and Copilot in PowerPoint: From Prompt to Presentation. Passed the final summative assessment to earn the certificate."
                  },

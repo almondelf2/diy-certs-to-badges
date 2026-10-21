@@ -75,12 +75,12 @@ diy-certs-to-badges/
     ├── advance-your-skills-in-it/                     <-- Badge slug (kebab-case)
     │   ├── assertion.json                             <-- Credly import file
     │   ├── badge-class.json                           <-- Public criteria & metadata
-    │   ├── badge.png                                  <-- 512x512 badge graphic
+    │   ├── badge.svg                                  <-- Scalable badge graphic (or badge.png)
     │   └── certificate.pdf                            <-- (Optional) Source certificate
     └── data-analytics-fundamentals/
         ├── assertion.json
         ├── badge-class.json
-        ├── badge.png
+        ├── badge.svg
         └── certificate.pdf
 ```
 
@@ -91,12 +91,12 @@ diy-certs-to-badges/
 Open Badges require a raster or vector graphic to represent the achievement visually.
 
 ### Specifications:
-* **Format:** `PNG` (recommended) or `SVG`. Do not use JPG.
-* **Aspect Ratio:** `1:1` (square).
+* **Format:** `SVG` (scalable vector) or `PNG`.
+* **Aspect Ratio:** `1:1` (square canvas).
 * **Dimensions:** Minimum `90 × 90 px`; recommended `512 × 512 px`.
-* **File Size:** Must be **under 256 KB**.
+* **File Size:** Must be **under 256 KB** (for PNG) or clean vector markup.
 * **Background:** Transparent or solid clean background.
-* **Location:** Save directly in the badge folder as `badge.png`.
+* **Location:** Save directly in the badge folder as `badge.svg` (or `badge.png`).
 
 ---
 
@@ -153,7 +153,7 @@ https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/BADGE-NAME/badge-cl
 | `id` | URI | **Required** | Canonical public HTTPS URL of this `badge-class.json` |
 | `name` | String | **Required** | Official name of the credential |
 | `description` | String | **Required** | Overview of competencies, syllabus, or learning outcomes |
-| `image` | URI | **Required** | Public HTTPS URL to `badge.png` |
+| `image` | URI | **Required** | Public HTTPS URL to `badge.svg` (or `badge.png`) |
 | `criteria` | Object / URI | **Required** | Evaluation requirements. An object with a `narrative` property describing completion requirements |
 | `issuer` | Object / URI | **Required** | Link to `issuer.json` or embedded `Profile` object |
 | `tags` | Array of Strings | Optional | List of competencies/skills. Credly indexes these and renders them as skill badges |
@@ -166,7 +166,7 @@ https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/BADGE-NAME/badge-cl
   "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/intro-data-science/badge-class.json",
   "name": "Introduction to Data Science",
   "description": "Comprehensive course covering exploratory data analysis, statistics, Python, and machine learning fundamentals.",
-  "image": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/intro-data-science/badge.png",
+  "image": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/intro-data-science/badge.svg",
   "criteria": {
     "narrative": "Completed all 10 modular units, passed all weekly coding labs, and scored 80% or higher on the comprehensive final exam."
   },
@@ -271,7 +271,7 @@ The `assertion.json` records that a specific recipient earned the badge.
     "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/intro-data-science/badge-class.json",
     "name": "Introduction to Data Science",
     "description": "Comprehensive course covering exploratory data analysis, statistics, Python, and machine learning fundamentals.",
-    "image": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/intro-data-science/badge.png",
+    "image": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/intro-data-science/badge.svg",
     "criteria": {
       "narrative": "Completed all 10 modular units, passed all weekly coding labs, and scored 80% or higher on the comprehensive final exam."
     },

@@ -4,7 +4,7 @@
   "id": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/BADGE-NAME/badge-class.json",
   "name": "Course Name Here",
   "description": "Brief description of what this course covered and what you learned.",
-  "image": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/BADGE-NAME/badge.png",
+  "image": "https://YOURUSERNAME.github.io/diy-certs-to-badges/my-badges/BADGE-NAME/badge.svg",
   "criteria": {
     "narrative": "Completed all modules, assignments, and requirements for this certification."
   },

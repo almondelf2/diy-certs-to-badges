@@ -109,7 +109,7 @@ $badgeClassObj = [ordered]@{
     id = "https://$Username.github.io/diy-certs-to-badges/my-badges/$Slug/badge-class.json"
     name = $Name
     description = $Description
-    image = "https://$Username.github.io/diy-certs-to-badges/my-badges/$Slug/badge.png"
+    image = "https://$Username.github.io/diy-certs-to-badges/my-badges/$Slug/badge.svg"
     criteria = [ordered]@{
         narrative = "Successfully completed all curriculum, assignments, and requirements for $Name."
     }
@@ -174,7 +174,7 @@ Write-Host "  Identity:   $identity"
 Write-Host "  Assertion:  $assertionPath"
 Write-Host ""
 Write-Host "Next steps:" -ForegroundColor Cyan
-Write-Host "  1. Add your 512x512 badge graphic: my-badges/$Slug/badge.png"
+Write-Host "  1. Add your badge graphic: my-badges/$Slug/badge.svg"
 Write-Host "  2. Commit and push changes: git add $Slug; git commit -m 'Add $Name badge'; git push"
 Write-Host "  3. Upload my-badges/$Slug/assertion.json to Credly!"
 Write-Host "==========================================================" -ForegroundColor Green
